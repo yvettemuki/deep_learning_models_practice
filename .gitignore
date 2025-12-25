@@ -227,6 +227,7 @@ __marimo__/
 *.rar
 
 # Data directories (common ML/data science patterns)
+**/data/
 **/data/raw/
 **/data/processed/
 **/data/**/*.gz
