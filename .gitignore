@@ -214,3 +214,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files and datasets
+# Compressed data files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Data directories (common ML/data science patterns)
+**/data/raw/
+**/data/processed/
+**/data/**/*.gz
+**/data/**/*.idx3-ubyte
+**/data/**/*.idx1-ubyte
+
+# Large binary data files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# Large tabular data files (only in data directories)
+**/data/**/*.csv
+**/data/**/*.tsv
+**/data/**/*.parquet
+**/data/**/*.feather
+**/data/**/*.arrow
